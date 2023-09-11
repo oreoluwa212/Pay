@@ -1,0 +1,52 @@
+/* ------------------------------ FONTS ------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
+
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: linear-gradient(to bottom left, #bfdac7, #d7cda0);
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+.main-container {}
+
+.box1 {
+   background: linear-gradient(to right, #b26a71, #7c4556);
+   height: 300px;
+   width: 500px;
+   border-radius: 20px;
+   margin-top: 40px;
+}
+
+.chip-space{
+   display: flex;
+   flex-direction: column;
+}
+.chip{
+   display: flex;
+   justify-content: space-between;
+   padding: 25px 20px 0px 25px;
+}
+.chip-box{
+   background: #f0eceb;
+   height: 54px;
+   width: 73px;
+   border-radius: 8px;
+}
+.visa{
+   color: white;
+   font-size: 30px;
+   /* font-family: 'Abel', sans-serif; */
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 500;
+}
+.visa-logo{
+   width: 100px;
+   height: 80px;
+}
