@@ -12,13 +12,16 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   /* justify-content: center; */
+   justify-content: center;
 }
 
 .main-container {
    position: relative;
    display: flex;
+   flex-direction: column;
    justify-content: center;
+   align-items: center;
+   gap: 50px;
 }
 
 .box1 {
@@ -95,12 +98,13 @@ body {
 
 /* -------------------------------- Payment section --------------------------------- */
 .payment-section {
-   margin-top: 180px;
+   /* margin-top: 180px; */
    padding: 5px 30px;
    display: flex;
    flex-direction: column;
    gap: 25px;
    z-index: 1;
+   width: 500px;
 }
 
 .card-size {
