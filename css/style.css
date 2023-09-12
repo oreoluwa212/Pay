@@ -14,14 +14,19 @@ body {
    /* justify-content: center; */
 }
 
-.main-container {}
+.main-container {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
 
 .box1 {
    background: linear-gradient(to right, #b26a71, #7c4556);
    height: 300px;
    width: 500px;
    border-radius: 20px;
-   margin-top: 40px;
+   margin-top: 25px;
+   z-index: 1;
 }
 
 .chip-space {
@@ -72,4 +77,16 @@ body {
    font-family: 'Abel', sans-serif;
    font-family: 'Nunito Sans', sans-serif;
    font-weight: 500;
+}
+
+
+.box2{
+   background: white;
+   height: 590px;
+   width: 600px;
+   z-index: -1;
+   top: 180px;
+   position: absolute;
+   /* display: flex; */
+   border-radius: 10px;
 }
