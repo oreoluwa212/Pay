@@ -24,29 +24,52 @@ body {
    margin-top: 40px;
 }
 
-.chip-space{
+.chip-space {
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
+   gap: 80px;
 }
-.chip{
+
+.chip {
    display: flex;
    justify-content: space-between;
    padding: 25px 20px 0px 25px;
 }
-.chip-box{
-   background: #f0eceb;
+
+.chip-box {
+   background: #d4d0cf;
    height: 54px;
    width: 73px;
    border-radius: 8px;
 }
-.visa{
+
+.chip-box-inner {
+   margin: 10px 9px;
+   border-radius: 5px;
+   height: 30px;
+   width: 50px;
+   border: 3px solid #bcc4be;
+}
+
+.visa {
    color: white;
    font-size: 30px;
-   /* font-family: 'Abel', sans-serif; */
-   font-family: 'Nunito Sans', sans-serif;
    font-weight: 500;
 }
-.visa-logo{
+
+.visa-logo {
    width: 100px;
    height: 80px;
+}
+
+.card-number {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 30px;
+   color: #c5c1c0;
+   font-size: 13px;
+   font-family: 'Abel', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 500;
 }
