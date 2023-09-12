@@ -1,5 +1,6 @@
 /* ------------------------------ FONTS ------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&family=Oswald&display=swap');
 
 
 body {
@@ -80,13 +81,97 @@ body {
 }
 
 
-.box2{
+.box2 {
    background: white;
    height: 590px;
    width: 600px;
    z-index: -1;
    top: 180px;
    position: absolute;
-   /* display: flex; */
    border-radius: 10px;
+}
+
+
+
+/* -------------------------------- Payment section --------------------------------- */
+.payment-section {
+   margin-top: 180px;
+   padding: 5px 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+
+.card-size {
+   font-size: 14px;
+   color: rgb(158, 153, 153);
+   font-weight: 400;
+   font-family: 'Oswald', sans-serif;
+}
+
+.card-number-section {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin: 0px 30px;
+}
+
+.boxes {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.equal1,
+.equal2,
+.equal3,
+.equal4 {
+   outline: 0;
+   border: 0;
+   width: 100px;
+   height: 50px;
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: inset 0 0 2px 2px rgba(153, 148, 148, 0.5);
+   cursor: pointer;
+}
+
+.equal {
+   outline: 0;
+   border: 0;
+   width: 462px;
+   height: 50px;
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: inset 0 0 2px 2px rgba(153, 148, 148, 0.5);
+   cursor: pointer;
+}
+
+.cvv-section {
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+}
+
+.boxes-in {
+   display: flex;
+   gap: 20px;
+}
+
+.btn-section {
+   margin: 5px 30px;
+   padding: 5px;
+}
+
+.sub-btn {
+   padding: 16px;
+   width: 460px;
+   font-size: 20px;
+   border: 0;
+   background: #45959e;
+   border-radius: 5px;
+   color: white;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
